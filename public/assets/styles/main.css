@@ -1,0 +1,102 @@
+#top-navbar {
+    border: 0px; }
+
+#navbar {
+    height: 45px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #4E729A;
+    -webkit-box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.1); }
+#navbar #logo {
+    float: left;
+    background: url("../images/logo.png") no-repeat;
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 0px; }
+#navbar #stat {
+    float: right;
+    color: white;
+    margin-top: 12px;
+    margin-right: 20px; }
+
+#main-container {
+    padding-left: 30px;
+    padding-right: 30px; }
+
+#balance {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold; }
+#balance #balance-sum {
+    font-style: italic;
+    color: #990000;
+    font-size: 18px; }
+
+#best-worker {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+    border-top: 1px #4E729A solid;
+    padding-top: 8px; }
+
+#left-menu > li.active {
+    background-color: #eee; }
+
+#left-menu > li > a {
+    padding: 5px 10px; }
+
+#main-content > .panel > .panel-footer {
+    text-align: right; }
+
+#products {
+    overflow: hidden; }
+#products .product-item {
+    float: left;
+    margin-right: 130px;
+    width: 180px;
+    height: 205px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 5px;
+    transition: background .25s ease-in-out; }
+#products .product-item:hover {
+    background: #CCCCFF; }
+#products .product-item .product-image {
+    height: 140px;
+    line-height: 135px; }
+#products .product-item .product-image img {
+    max-width: 100%;
+    max-height: 135px; }
+#products .product-item:last-child {
+    margin-right: 0px; }
+
+#do-description {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 35px; }
+
+#review-popup #product-info {
+    text-align: center; }
+#review-popup #product-info #product-image {
+    width: 100%;
+    height: 300px; }
+#review-popup #product-info #product-image img {
+    max-width: 100%;
+    max-height: 100%; }
+
+#review-popup #product-review {
+    margin-top: 5px; }
+
+#withdraw {
+    margin-top: 15px; }
+
+#withdraw-desc {
+    margin-top: 5px;
+    font-size: 12px; }
+
+#feedback-desc {
+    margin-bottom: 15px; }
